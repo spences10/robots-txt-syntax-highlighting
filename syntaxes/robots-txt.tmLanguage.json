@@ -1,0 +1,19 @@
+{
+  "$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
+  "name": "robots.txt",
+  "patterns": [
+    {
+      "match": "^(User-agent|Disallow|Allow|Sitemap|Host):",
+      "name": "keyword.control.robots-txt"
+    },
+    {
+      "match": ":.*",
+      "name": "string.unquoted.robots-txt"
+    },
+    {
+      "match": "#.*",
+      "name": "comment.line.number-sign.robots-txt"
+    }
+  ],
+  "scopeName": "source.robots-txt"
+}
