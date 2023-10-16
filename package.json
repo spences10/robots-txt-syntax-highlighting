@@ -1,8 +1,13 @@
 {
-  "name": "robots.txt",
+  "name": "robots-txt",
   "displayName": "robots.txt syntax highlighting",
   "description": "Syntax highlighting for robots.txt files",
   "version": "0.0.1",
+  "publisher": "spences10",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/spences10/robots-txt-syntax-highlighting.git"
+  },
   "engines": {
     "vscode": "^1.83.0"
   },
@@ -10,16 +15,25 @@
     "Programming Languages"
   ],
   "contributes": {
-    "languages": [{
-      "id": "robots-txt",
-      "aliases": ["robots.txt", "robots-txt"],
-      "extensions": [".txt"],
-      "configuration": "./language-configuration.json"
-    }],
-    "grammars": [{
-      "language": "robots-txt",
-      "scopeName": "source.robots-txt",
-      "path": "./syntaxes/robots-txt.tmLanguage.json"
-    }]
+    "languages": [
+      {
+        "id": "robots-txt",
+        "aliases": [
+          "robots.txt",
+          "robots-txt"
+        ],
+        "extensions": [
+          ".txt"
+        ],
+        "configuration": "./language-configuration.json"
+      }
+    ],
+    "grammars": [
+      {
+        "language": "robots-txt",
+        "scopeName": "source.robots-txt",
+        "path": "./syntaxes/robots-txt.tmLanguage.json"
+      }
+    ]
   }
 }
