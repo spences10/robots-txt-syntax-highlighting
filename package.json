@@ -1,8 +1,8 @@
 {
   "name": "robots-txt",
-  "displayName": "robots.txt syntax highlighting",
-  "description": "Syntax highlighting for robots.txt files",
-  "version": "0.0.2",
+  "displayName": "robots.txt",
+  "description": "Simple syntax highlighting for robots.txt files",
+  "version": "0.0.3",
   "publisher": "spences10",
   "icon": ".github/assets/openmoji-robot.png",
   "repository": {
