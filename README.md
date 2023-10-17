@@ -1,5 +1,9 @@
 # Robots.txt Syntax Highlighting Extension for VS Code
 
+[![Marketplace Version](https://vsmarketplacebadges.dev/version/spences10.robots-txt.svg)](https://marketplace.visualstudio.com/items?itemName=spences10.robots-txt)
+[![Installs](https://vsmarketplacebadges.dev/installs/spences10.robots-txt.svg)](https://marketplace.visualstudio.com/items?itemName=spences10.robots-txt)
+[![Rating](https://vsmarketplacebadges.dev/rating-short/spences10.robots-txt.svg)](https://marketplace.visualstudio.com/items?itemName=spences10.robots-txt)
+
 This extension provides syntax highlighting for robots.txt files in Visual Studio Code, making it easier to read and write them.
 
 ## Features
