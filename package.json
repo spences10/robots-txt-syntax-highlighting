@@ -2,7 +2,7 @@
   "name": "robots-txt",
   "displayName": "robots.txt",
   "description": "Simple syntax highlighting for robots.txt files",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "publisher": "spences10",
   "icon": ".github/assets/openmoji-robot.png",
   "repository": {
