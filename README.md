@@ -6,6 +6,8 @@
 
 This extension provides syntax highlighting for robots.txt files in Visual Studio Code, making it easier to read and write them.
 
+![robots-example-image](.github/assets/robots-example-image.png)
+
 ## Features
 
 - Syntax highlighting for standard robots.txt directives including User-agent, Disallow, Allow, Sitemap, and Host.
