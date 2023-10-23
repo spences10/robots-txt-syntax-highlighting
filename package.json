@@ -35,6 +35,12 @@
         "scopeName": "source.robots-txt",
         "path": "./syntaxes/robots-txt.tmLanguage.json"
       }
+    ],
+    "snippets": [
+      {
+        "language": "robots-txt",
+        "path": "./snippets/robots-txt.json"
+      }
     ]
   }
 }

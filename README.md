@@ -12,6 +12,7 @@ This extension provides syntax highlighting for robots.txt files in Visual Studi
 
 - Syntax highlighting for standard robots.txt directives including User-agent, Disallow, Allow, Sitemap, and Host.
 - Highlights comments starting with #.
+- Added snippets for common directives.
 
 ## Supported Directives
 

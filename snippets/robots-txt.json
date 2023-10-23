@@ -1,0 +1,22 @@
+{
+  "Disallow directive": {
+    "prefix": "disallow",
+    "body": "Disallow: /${1:path}",
+    "description": "Inserts a Disallow directive"
+  },
+  "Allow directive": {
+    "prefix": "allow",
+    "body": "Allow: /${1:path}",
+    "description": "Inserts an Allow directive"
+  },
+  "Sitemap directive": {
+    "prefix": "sitemap",
+    "body": "Sitemap: ${1:url}",
+    "description": "Inserts a Sitemap directive"
+  },
+  "Host directive": {
+    "prefix": "host",
+    "body": "Host: ${1:host}",
+    "description": "Inserts a Host directive"
+  }
+}
