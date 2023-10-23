@@ -1,14 +1,19 @@
 {
   "$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
   "name": "robots.txt",
+  "fileTypes": ["txt"],
+  "firstLineMatch": "^User-agent:",
   "patterns": [
     {
-      "match": "^(User-agent|Disallow|Allow|Sitemap|Host):",
-      "name": "keyword.control.robots-txt"
-    },
-    {
-      "match": ":.*",
-      "name": "string.unquoted.robots-txt"
+      "match": "^(User-agent|Disallow|Allow|Sitemap|Host):(\\s*)(.*)",
+      "captures": {
+        "1": {
+          "name": "keyword.control.robots-txt"
+        },
+        "3": {
+          "name": "string.unquoted.robots-txt"
+        }
+      }
     },
     {
       "match": "#.*",
