@@ -23,3 +23,15 @@ This extension supports the following robots.txt directives:
 - `Allow`: Specifies a URL path that a robot is allowed to request.
 - `Sitemap`: Specifies the URL of a sitemap for the website.
 - `Host`: Specifies the preferred domain for the website.
+
+## Publishing
+
+Set package version with `npm`
+
+```bash
+npm version patch # major 1.0.0 | minor 0.1.0 | patch 0.0.1
+vsce package
+vsce publish
+```
+
+For details on getting a personal access token check [here](https://code.visualstudio.com/api/working-with-extensions/publishing-extension#get-a-personal-access-token).
