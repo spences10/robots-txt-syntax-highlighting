@@ -6,6 +6,8 @@
 
 This extension provides syntax highlighting for robots.txt files in Visual Studio Code, making it easier to read and write them.
 
+Read the blog post on [Making a robots.txt syntax highlighter for VS Code](https://scottspence.com/posts/making-a-robots-txt-syntax-highlighter-for-vs-code) for more information.
+
 ![robots-example-image](.github/assets/robots-example-image.png)
 
 ## Features
