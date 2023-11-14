@@ -10,7 +10,7 @@
     "url": "https://github.com/spences10/robots-txt-syntax-highlighting.git"
   },
   "engines": {
-    "vscode": "^1.83.0"
+    "vscode": "^2023.0.0"
   },
   "categories": [
     "Programming Languages"
